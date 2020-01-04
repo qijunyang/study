@@ -8,7 +8,7 @@
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "__tests__"
+    "test": "test"
   },
   "files": [
     "lib"
@@ -18,9 +18,18 @@
     "url": "git+https://github.com/qijunyang/study.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "./node_modules/.bin/jest"
+  },
+  "jest": {
+    "roots": [
+      "test"
+    ],
+    "testRegex": "\\.(js|jsx)$"
   },
   "bugs": {
     "url": "https://github.com/qijunyang/study/issues"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
   }
 }
