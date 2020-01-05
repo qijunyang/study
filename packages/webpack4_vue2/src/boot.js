@@ -5,6 +5,7 @@ import UserManager from "./store/modules/UserManager";
 
 Vue.use(Vuex);
 const store = new Vuex.Store({
+  strict: true,
   modules: {
     UserManager
   }
