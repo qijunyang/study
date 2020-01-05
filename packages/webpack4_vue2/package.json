@@ -1,0 +1,47 @@
+{
+  "name": "webpack4_vue2",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "qijunyang <qj.msn.y@hotmail.com>",
+  "homepage": "https://github.com/qijunyang/study#readme",
+  "license": "ISC",
+  "main": "dist/webpack4_vue2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qijunyang/study.git"
+  },
+  "jest": {
+    "roots": [
+      "test"
+    ],
+    "testRegex": "\\.(js|jsx)$"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "build:watch": "webpack --watch --info-verbosity verbose",
+    "start:dev": "webpack-dev-server"
+  },
+  "bugs": {
+    "url": "https://github.com/qijunyang/study/issues"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
