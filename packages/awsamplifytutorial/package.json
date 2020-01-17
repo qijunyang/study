@@ -1,0 +1,36 @@
+{
+  "name": "awsamplifytutorial",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Qijun Yang <Qijun.Yang@morningstar.com>",
+  "homepage": "https://github.com/qijunyang/study#readme",
+  "license": "ISC",
+  "main": "lib/awsamplifytutorial.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://qijunyang@github.com/qijunyang/study.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "bugs": {
+    "url": "https://github.com/qijunyang/study/issues"
+  },
+  "dependencies": {
+    "aws-amplify": "^2.2.2",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
