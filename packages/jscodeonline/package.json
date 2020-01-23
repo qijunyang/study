@@ -1,0 +1,44 @@
+{
+  "name": "jscodeonline",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Qijun Yang <Qijun.Yang@morningstar.com>",
+  "homepage": "https://github.com/qijunyang/study#readme",
+  "license": "ISC",
+  "main": "dist/main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://qijunyang@github.com/qijunyang/study.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack-dev-server"
+  },
+  "bugs": {
+    "url": "https://github.com/qijunyang/study/issues"
+  },
+  "dependencies": {
+    "aws-amplify": "^2.2.2",
+    "jquery": "^3.4.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
