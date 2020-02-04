@@ -1,0 +1,33 @@
+{
+  "name": "@qjs/ui",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Qijun Yang <qj.msn.y@hotmail.com>",
+  "homepage": "https://github.com/qijunyang/study#readme",
+  "license": "ISC",
+  "main": "dist/ui.umd.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://qijunyang@github.com/qijunyang/study.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack-dev-server"
+  },
+  "bugs": {
+    "url": "https://github.com/qijunyang/study/issues"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
