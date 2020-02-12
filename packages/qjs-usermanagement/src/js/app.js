@@ -1,2 +1,2 @@
-import {button} from "@qjs/ui";
-console.log(button);
+import { qjsui } from "@qjs/ui";
+console.log(qjsui);

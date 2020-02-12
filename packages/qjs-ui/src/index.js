@@ -1,13 +1,15 @@
 import Button from "./button/Button";
 import Menu from "./menu/Menu";
+import View from "./view/View";
 
-export const button = {
-    Button
-}
-export const menu = {
-    Menu
-}
-export default {
-    button,
-    menu
+export const qjsui = {
+    view: {
+        View
+    },
+    button: {
+        Button
+    },
+    menu: {
+        Menu
+    }
 }

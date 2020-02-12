@@ -1,0 +1,13 @@
+{
+    "clazz": "qjsui.view.View",
+    "components": [
+        {
+            "clazz": "qjsui.button.Button",
+            "title": "OK"
+        },
+        {
+            "clazz": "qjsui.button.Button",
+            "title": "Cancel"
+        }
+    ]
+}
