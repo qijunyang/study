@@ -30,6 +30,11 @@
     "url": "https://github.com/qijunyang/study/issues"
   },
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "jest-puppeteer": "^4.4.0",
+    "ts-jest": "^25.2.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.8.4"
   }
 }
