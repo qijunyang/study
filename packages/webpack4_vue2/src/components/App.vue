@@ -1,6 +1,7 @@
 <template>
   <div>
     <user-list />
+    <div id="shell"></div>
   </div>
 </template>
 <script>

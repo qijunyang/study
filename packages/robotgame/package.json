@@ -1,0 +1,26 @@
+{
+  "name": "robotgame",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Qijun Yang <Qijun.Yang@morningstar.com>",
+  "homepage": "https://github.com/qijunyang/study#readme",
+  "license": "ISC",
+  "main": "lib/robotgame.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://qijunyang@github.com/qijunyang/study.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/qijunyang/study/issues"
+  }
+}
