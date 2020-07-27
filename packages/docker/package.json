@@ -23,5 +23,8 @@
   },
   "bugs": {
     "url": "https://github.com/qijunyang/study/issues"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
   }
 }

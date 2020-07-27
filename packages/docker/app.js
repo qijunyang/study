@@ -1,7 +1,11 @@
-var http = require('http');
+var express = require('express');
+var app = express();
 
-//create a server object:
-http.createServer(function (req, res) {
-  res.write('Hello Docker!'); //write a response to the client
-  res.end(); //end the response
-}).listen(8080); //the server object listens on port 8080
+app.get("/api/user", (req, res) => {
+  res.send("this is user");
+});
+app.get("/api/book", (req, res) => {
+  res.send("this is book");
+});
+
+app.listen(8080);
