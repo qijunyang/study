@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "webpack",
+    "build": "webpack --env.NODE_ENV=development",
     "build:watch": "webpack --watch --info-verbosity verbose",
     "start:dev": "webpack-dev-server"
   }

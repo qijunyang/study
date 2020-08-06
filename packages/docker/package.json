@@ -2,7 +2,7 @@
   "name": "docker",
   "version": "0.0.0",
   "description": "> TODO: description",
-  "author": "Qijun Yang <Qijun.Yang@morningstar.com>",
+  "author": "",
   "homepage": "https://github.com/qijunyang/study#readme",
   "license": "ISC",
   "main": "lib/docker.js",
