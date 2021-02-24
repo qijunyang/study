@@ -3,12 +3,14 @@
   "private": true,
   "devDependencies": {
     "jest": "^24.9.0",
-    "lerna": "^3.20.2"
+    "lerna": "^3.20.2",
+    "vue": "^2.6.12"
   },
   "scripts": {
     "test": "./node_modules/.bin/jest"
   },
   "dependencies": {
-    "aws-amplify": "^3.0.20"
+    "aws-amplify": "^3.0.20",
+    "eslint": "^7.20.0"
   }
 }
