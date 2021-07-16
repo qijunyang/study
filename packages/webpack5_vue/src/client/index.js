@@ -7,7 +7,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import App from "./App.vue";
-
+import _ from "lodash";
+console.log("====", _.isEmpty([]));
 Vue.use(VueRouter)
 
 const Foo = { template: '<div>foo</div>' }

@@ -3,6 +3,7 @@
     "babel-loader": "^8.2.2",
     "jquery": "^3.5.1",
     "vue": "^2.6.12",
+    "lodash": "^4.17.21",
     "vue-router": "^3.5.2"
   },
   "devDependencies": {
@@ -17,7 +18,8 @@
     "webpack-cli": "^4.5.0"
   },
   "scripts": {
-    "build": "rm -rf ./dist && webpack",
+    "build": "webpack",
+    "build:vendor": "webpack --config ./webpack.vendor.config.js",
     "dev": "yarn build && node ./src/server/app.js"
   }
 }

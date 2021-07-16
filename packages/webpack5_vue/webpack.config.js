@@ -39,6 +39,10 @@ module.exports = {
         ],
     },
     plugins: [
+      new webpack.DllReferencePlugin({
+        context: __dirname,
+        manifest: require('./dist/vendor-manifest.json')
+      }),
       new webpack.DefinePlugin({
         'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
       }),
